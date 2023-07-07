@@ -139,7 +139,6 @@
     "SelectToken": "Select Token",
     "SelectNetwork": "Select Network",
     "Share": "Share",
-    "Onlysendadress": "Only send {变量} network assets to this adress",
     "Shareto": "Share to",
     "Saveimage": "Save as image",
     "Picturesaved": "Picture has been saved to album",
@@ -148,9 +147,7 @@
     "Contractadress": "Contract adress",
     "TokenID": "Token ID#",
     "InsufficientGasfee": "Insufficient Gasfee",
-    "InsufficientGasfeenotice": "The {主网币种} balance is not enough for transfer.please recharge part of{主网币种} to pay for thenetwork charge of {主网}",
     "Edit": "Edit",
-    "havejoined": "{数字} have joined",
     "Unfriend": "Unfriend",
     "Language": "Language",
     "Currency": "Currency",
@@ -285,5 +282,8 @@
     "cancel": "cancel",
     "wallet_tip1": "If seed phase or private key is lost wallet assets cannot be recovered",
     "wallet_tip2": "Do not share your seed phase or private key with anyone otherwise there is a high risk of asset loss.",
-    "wallet_tip3": "Keep your seed phase and private key safe."
+    "wallet_tip3": "Keep your seed phase and private key safe.",
+    "havejoined": "{数字} have joined",
+    "InsufficientGasfeenotice": "The {主网币种} balance is not enough for transfer.please recharge part of{主网币种} to pay for thenetwork charge of {主网}",
+    "Onlysendadress": "Only send {变量} network assets to this adress"
 }

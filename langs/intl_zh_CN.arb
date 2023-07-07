@@ -139,7 +139,6 @@
     "SelectToken": "选择币种",
     "SelectNetwork": "选择网络",
     "Share": "分享",
-    "Onlysendadress": "仅支持接收{变量}网络下资产",
     "Shareto": "分享至",
     "Saveimage": "保存为图片",
     "Picturesaved": "图片已保存至相册",
@@ -148,9 +147,7 @@
     "Contractadress": "合约地址",
     "TokenID": "代币ID#",
     "InsufficientGasfee": "手续费不足",
-    "InsufficientGasfeenotice": "{主网币种}不足以支付交易手续费，请充值部分{主网币种}至{主网}以支付网络手续费",
     "Edit": "编辑资料",
-    "havejoined": "{数字}已加入",
     "Unfriend": "解除",
     "Language": "语言",
     "Currency": "法币",
@@ -285,5 +282,8 @@
     "cancel": "取消",
     "wallet_tip1": "如丢失了助记词或私钥，将无法恢复钱包资产；",
     "wallet_tip2": "请勿与任何人分享你的助记词或私钥，否则资产会有高丢失风险。",
-    "wallet_tip3": "请妥善保存你的助记词或私钥。"
+    "wallet_tip3": "请妥善保存你的助记词或私钥。",
+    "havejoined": "{数字}已加入",
+    "InsufficientGasfeenotice": "{主网币种}不足以支付交易手续费，请充值部分{主网币种}至{主网}以支付网络手续费",
+    "Onlysendadress": "仅支持接收{变量}网络下资产"
 }
