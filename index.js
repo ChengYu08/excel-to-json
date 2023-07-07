@@ -16,14 +16,14 @@ Object.keys(Sheet).forEach(key=>{
     const s = key.slice(0,1);
     const v =  key.slice(1,key.length)*1;
     if(s=='A') {
-        keyNumMap[v] =value.w;
+        keyNumMap[v] =value.w.trim();
     }else {
         if(v==1) {
             exportJsonMap[value.w] = {}
-            langNumMap[s] = value.w;
+            langNumMap[s] = value.w.trim();
         }else {
             const lang= langNumMap[s];
-            exportJsonMap[lang][keyNumMap[v]] = value.w;
+            exportJsonMap[lang][keyNumMap[v]] = value.w.trim();
         }
     }
 });
