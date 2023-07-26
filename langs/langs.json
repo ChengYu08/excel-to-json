@@ -1,12 +1,16 @@
 {
     "zh": {
-        "ljqb": "连接钱包",
-        "zczz": "注册组织",
-        "gd": "更多"
+        "translation": {
+            "ljqb": "连接钱包",
+            "zczz": "注册组织",
+            "gd": "更多"
+        }
     },
     "en": {
-        "ljqb": "Connect wallet",
-        "zczz": "Register Organizatio",
-        "gd": "Learn more"
+        "translation": {
+            "ljqb": "Connect wallet",
+            "zczz": "Register Organizatio",
+            "gd": "Learn more"
+        }
     }
 }
