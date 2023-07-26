@@ -1,5 +1,5 @@
 var XLSX = require("xlsx");
-var data = XLSX.readFile("./lang.xlsx");
+var data = XLSX.readFile("./l4-lang.xlsx");
 const fs = require('fs-extra')
 const Sheet = data.Sheets.Sheet1
 const exportJsonMap = {}
