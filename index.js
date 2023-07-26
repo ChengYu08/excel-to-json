@@ -30,3 +30,4 @@ Object.keys(Sheet).forEach(key=>{
 fs.removeSync("./langs/");
 fs.mkdirSync("./langs/");
 fs.writeFile(`./langs/langs.json`,JSON.stringify(exportJsonMap,null,4));
+fs.writeFile(`./langs/langsKey.js`,JSON.stringify(Object.keys(exportJsonMap),null,4));
