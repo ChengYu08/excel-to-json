@@ -39,3 +39,5 @@ Object.keys(exportJsonMap).forEach(i=>{
 })
 fs.writeFile(`./langs/langs.json`,JSON.stringify(newObj,null,4));
 fs.writeFile(`./langs/langsKey.json`,JSON.stringify(Object.keys(exportJsonMap),null,4));
+
+fs.removeSync("./l4-lang.xlsx");
