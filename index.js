@@ -33,3 +33,5 @@ fs.mkdirSync("./langs/");
 Object.keys(exportJsonMap).forEach((key)=>{
     fs.writeFile(`./langs/${key}.arb`,JSON.stringify(exportJsonMap[key],null,4));
 })
+
+fs.removeSync("./lang.xlsx");
